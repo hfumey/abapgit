@@ -31,6 +31,7 @@ MODULE status_0100 OUTPUT.
   SET PF-STATUS 'STAT1'.
 
   IF g_cust IS INITIAL and sy-subrc = 0.
+*This is branch 1 text.
 
     CREATE OBJECT g_cust
       EXPORTING
